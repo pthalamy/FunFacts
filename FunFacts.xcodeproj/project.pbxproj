@@ -15,6 +15,8 @@
 		02CB77A81BF5014D0055CC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CB77A61BF5014D0055CC11 /* LaunchScreen.storyboard */; };
 		02CB77B31BF5014D0055CC11 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB77B21BF5014D0055CC11 /* FunFactsTests.m */; };
 		02CB77BE1BF5014D0055CC11 /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB77BD1BF5014D0055CC11 /* FunFactsUITests.m */; };
+		02CB77CD1BF50D480055CC11 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB77CC1BF50D480055CC11 /* FactBook.m */; };
+		02CB77D01BF5173E0055CC11 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB77CF1BF5173E0055CC11 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		02CB77B91BF5014D0055CC11 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CB77BD1BF5014D0055CC11 /* FunFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsUITests.m; sourceTree = "<group>"; };
 		02CB77BF1BF5014D0055CC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CB77CB1BF50D480055CC11 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FactBook.h; path = ../FactBook.h; sourceTree = "<group>"; };
+		02CB77CC1BF50D480055CC11 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactBook.m; path = ../FactBook.m; sourceTree = "<group>"; };
+		02CB77CE1BF5173E0055CC11 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		02CB77CF1BF5173E0055CC11 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				02CB779B1BF5014D0055CC11 /* AppDelegate.h */,
 				02CB779C1BF5014D0055CC11 /* AppDelegate.m */,
+				02CB77CE1BF5173E0055CC11 /* ColorWheel.h */,
+				02CB77CF1BF5173E0055CC11 /* ColorWheel.m */,
+				02CB77CB1BF50D480055CC11 /* FactBook.h */,
+				02CB77CC1BF50D480055CC11 /* FactBook.m */,
 				02CB779E1BF5014D0055CC11 /* ViewController.h */,
 				02CB779F1BF5014D0055CC11 /* ViewController.m */,
 				02CB77A11BF5014D0055CC11 /* Main.storyboard */,
@@ -275,7 +285,9 @@
 			files = (
 				02CB77A01BF5014D0055CC11 /* ViewController.m in Sources */,
 				02CB779D1BF5014D0055CC11 /* AppDelegate.m in Sources */,
+				02CB77CD1BF50D480055CC11 /* FactBook.m in Sources */,
 				02CB779A1BF5014D0055CC11 /* main.m in Sources */,
+				02CB77D01BF5173E0055CC11 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
